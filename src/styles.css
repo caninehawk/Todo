@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Lato';
+}
+.main{
+    display: grid;
+    grid-template-columns:40% 60%;
+}
+.left-side{
+    height:100vh;
+    background-color: #059669;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.right-side{
+    background-color: #064e3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.createProject{
+    font-family:'Lato';
+    margin: 100px 130px;
+    display:flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #059669;
+    background-color: #4ade80;
+    border: 2px solid #4ade80;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.createProject:hover{
+    background-color: #bbf7d0;
+    border: 2px solid #bbf7d0;
+}
+.projects{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project-div {
+    width: 70%;
+    color: #059669;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #bbf7d0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.project-div:hover {
+    background-color: #d9f99d;
+}
+.todo{
+    color: #d1fae5;
+    width: 80%;
+    background-color: #022c22;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; 
+    position: relative; 
+    height: 85%;
+    text-align: center;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
